@@ -18,7 +18,7 @@
 ## Step Two (We make the mod work)
 I am assuming that the files are in your downloads folder if they aren't change the `cd ./Downloads` to the right path. I am also assuming you haven't upzipped the native-libraries.
 - Open Terminal
-- Run `cd ./Downloads && unzip native-libraries && mkdir -p io/imgui/java/native-bin && cp native-libraries/libimgui-javaarm64.dylib io/imgui/java/native-bin/libimgui-java64.dylib && zip -u Axiom-b1.0.4-for-MC1.20.1.jar io/imgui/java/native-bin/libimgui-java64.dylib && rm -r native-libraries && rm -r io`
+- Run `cd ./Downloads && unzip native-libraries && mkdir -p io/imgui/java/native-bin && cp native-libraries/libimgui-javaarm64.dylib io/imgui/java/native-bin/libimgui-java64.dylib && zip -u Axiom-b1.1.2-for-MC1.20.1.jar io/imgui/java/native-bin/libimgui-java64.dylib && rm -r native-libraries && rm -r io`
 - `⌘ + q` Terminal
 ## Step Three (if you have a defult minecraft setup)
 ## Credits/Acknowledgments
